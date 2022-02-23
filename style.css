@@ -61,6 +61,10 @@ section{
     box-shadow: var(--box-shadow);
 }
 
+p {
+    font-size: 15px;
+  }
+
 .btn:hover{
     box-shadow: var(--box-shadow-inset);
     color:var(--green);
@@ -102,7 +106,7 @@ section{
 
 .header .user h3{
     color:var(--black);
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 .header .user p{
@@ -181,7 +185,7 @@ section{
 }
 
 .home .content h3{
-    font-size: 7rem;
+    font-size: 6rem;
     color:var(--black);
     line-height: 1.1;
     text-transform: uppercase;
@@ -521,4 +525,9 @@ section{
         border-right: 0;
     }
 
+}
+a {
+    color: rgb(202, 19, 19);
+    text-decoration: none;
+    border-bottom: 1px solid green;
 }
