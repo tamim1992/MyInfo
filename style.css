@@ -97,7 +97,7 @@ p {
 
 .header .user img{
     margin:1rem 0;
-    border:0.1rem solid transparent;
+    border:1rem solid transparent;
     border-radius: 50%;
     height: 20rem;
     width: 18rem;
@@ -190,16 +190,7 @@ p {
     line-height: 1.1;
     text-transform: uppercase;
 }
-.home .share a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    box-shadow: var(--box-shadow);
-    margin:.5rem;
-    font-size: 2rem;
-    color:var(--black);
-    border-radius: .5rem;
-}
+
 .home .content p{
     font-size: 2rem;
     color:var(--green);
@@ -214,7 +205,16 @@ p {
     padding:1rem;
 }
 
-
+.home .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin:.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-radius: .5rem;
+}
 
 .home .share a:hover{
     box-shadow: var(--box-shadow-inset);
@@ -255,7 +255,7 @@ p {
 }
 
 .about .row .content h3{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color:var(--black);
     line-height: 1.8;
 }
