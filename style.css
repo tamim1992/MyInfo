@@ -62,8 +62,9 @@ section{
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
   }
+
 
 .btn:hover{
     box-shadow: var(--box-shadow-inset);
