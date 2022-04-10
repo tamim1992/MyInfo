@@ -62,7 +62,7 @@ section{
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
   }
 
 .btn:hover{
@@ -471,19 +471,6 @@ p {
 .credits span{
     color: var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
